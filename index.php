@@ -3,7 +3,7 @@
 <body>
 
 <header>
-	<h1>Home</h1>
+	<h1>Rugby</h1>
 </header>
 <?php include "inc/nav.inc";?> 
 <figure>
