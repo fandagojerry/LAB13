@@ -6,11 +6,9 @@
 	<h1>Laws of the Game of Rugby Union</h1>
 </header>
 <?php include "inc/nav.inc";?> 
-<figure>
-	<img src="images/field.jpg">
-</figure>
+
 <main>
-	<h2>Basic Laws</h2>
+	<img src="images/positions.jpg"><h2>Basic Laws</h2>
 <p>Rugby union is played by two teams of 15 players.
 Although the aim of the game is simple, there are many laws which make can make it hard for the new viewer to keep track of what is going on.
 
@@ -22,7 +20,7 @@ Rugby union is a contact sport, so you can tackle an opponent in order to get th
 
 There is a referee, aided by two touch judges (one on each side of the pitch), to decide how the rules should be applied during a game.
 </p>
-<h2>How To Score(Try)</h2>
+<h2>How To Score</h2>
 <ol>
 <li>A try - five points are awarded for touching the ball down in your opponent's goal area.</li>
 <li>A conversion - two points are added for a successful kick through the goalposts after a try</li>
@@ -30,7 +28,7 @@ There is a referee, aided by two touch judges (one on each side of the pitch), t
 <li>If both teams score the same amount of points, or no points are scored, then the match is a draw. In some cases, extra time is played to decide who wins.</li>
 </ol>
 
-<h2>Length</h2>
+<imc src="images/field.jpg" alt="field.jpg"> <h2>Length</h2>
 <p>A game of rugby union has two periods of 40 minutes each. In international matches the referee will stop the clock for stoppages.
 
 Between the two halves, there is a maximum 10-minute interval, after which both teams change ends.
