@@ -1,0 +1,53 @@
+/*	*******************************************
+	Styling of the Z-pattern page layout 
+	******************************************* */
+.z-pattern { 
+	background-image: url(../images/blue-sky.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+/*	*******************************************
+	Fixed positioning of the header/footer
+	******************************************* */
+.persistent {
+	position: fixed;
+	left: 0;
+	width: 100%;
+}
+header.persistent { top: 0; }
+footer.persistent { bottom: 0; }
+
+/*	*******************************************
+	Styling of the four Z-pattern quadrants
+	******************************************* */
+.primary, .strong, .weak, .terminal {
+	margin: 35px; /* ...style to taste */
+}
+.primary, .weak { margin-left: 0; }
+.strong, .terminal { margin-right: 0; }
+
+/*	*******************************************
+	Flex positioning of the four quadrants
+	******************************************* */
+header .container, footer .container { 
+	display: flex;
+	justify-content: space-between;
+}
+
+.primary, .strong, .weak, .terminal { 
+	align-self: center;
+}
+.strong, .terminal { text-align: right; }
+.terminal { font-size: xx-large; }
+
+/*	*******************************************
+	Positioning of the centered message
+	******************************************* */
+.z-pattern main { 
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	text-align: center;
+}

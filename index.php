@@ -2,7 +2,7 @@
 
 <body>
 
-<header>
+<header class="persistent">
 	<h1>Rugby</h1>
 </header>
 <?php include "inc/nav.inc";?> 
