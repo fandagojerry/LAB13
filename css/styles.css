@@ -1,0 +1,71 @@
+/* BASE	****************************************** */
+ @import url('http://fonts.googleapis.com/css?family=Montserrat');
+ @import url('https://fonts.googleapis.com/css?family=Hind');
+
+body{font-family: 'Hind', sans-serif;}
+
+h1 {
+	font-size: 55px;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+h2 {
+	font-size: 150%;
+	padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+	}
+
+p, aside {
+	color: #40371D;
+	font-size: 20px;
+	line-height: 26px;
+	margin-bottom: 32px;
+	}
+a {color: white;
+	padding: 10px;}
+
+a:link {text-decoration: none;
+	}
+
+a:hover {color: white;
+	background-image: none;
+	background-color: black;
+	padding-left: 10px;}
+
+footer {font-size: medium;
+	font-style: italic;
+	padding: 10px;
+}
+
+footer ul li{
+	display: inline-block;
+	padding: 10px;
+}
+
+/*	******************************************* */
+body, h1, h2, h3 { margin: 0; }
+
+/*	*******************************************
+	MODULES
+	******************************************* */
+
+
+/*	*******************************************
+	LAYOUT
+	******************************************* */
+/* LAYOUT TEST STYLES */
+* { 
+	border: 1px solid hotpink; 
+	padding: 2px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 95%;
+	max-width: 960px;
+	color: #333333;
+	font-family: 'Hind', sans-serif;
+	padding:30px 0px 80px 0px;
+}
