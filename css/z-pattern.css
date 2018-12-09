@@ -39,7 +39,12 @@ header .container, footer .container {
 	align-self: center;
 }
 .strong, .terminal { text-align: right; }
-.terminal { font-size: xx-large; }
+.terminal { 
+	font-size: xx-large;
+	background-color: yellow; 
+    display: block;
+    grid-column: 5;
+    grid-row: 3}
 
 /*	*******************************************
 	Positioning of the centered message
@@ -47,7 +52,12 @@ header .container, footer .container {
 .z-pattern main { 
 	display: flex; 
 	justify-content: center;
+	grid-column: 1/6;
 	align-items: center;
-	min-height: 100vh;
+	min-height: 60vh;
 	text-align: center;
+}
+main p{
+	color: white;
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }

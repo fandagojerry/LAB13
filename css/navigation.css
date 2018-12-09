@@ -1,8 +1,12 @@
 /* is-current is what to select for js */
 
 .menu ul{
-	display: inline-block;
+	display:  block;
 	list-style: none;
+}
+
+.menu ul li{
+	display: inline-block;
 }
 
 .is-current{

@@ -12,7 +12,7 @@
 
 <?php include "inc/nav.inc";?> 
 
-<main class="about">
+<main>
 <p>
 	A team game played with an oval ball that may be kicked, carried, and passed from hand to hand. Points are scored by grounding the ball behind the opponents' goal line (thereby scoring a try) or by kicking it between the two posts and over the crossbar of the opponents' goal.
 </p>
@@ -23,7 +23,7 @@
 Learn More!
 	</div>
 <section>
-	
+
 </div><!-- .container -->
 
 
