@@ -7,7 +7,7 @@
 </header>
 <?php include "inc/nav.inc";?> 
 <figure>
-<img src="images/field_positions.jpg">
+<img src="images/feild_positions.jpg">
 </figure>
 <main>
 
